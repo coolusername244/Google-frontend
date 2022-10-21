@@ -49,14 +49,46 @@ input[type="text"]:focus {
 }
 
 
-.btn-primary {
+.btn-search {
     background-color: rgb(248, 249, 250);
     color: rgb(43, 44, 47);
     border-color: rgb(248, 249, 250);
 }
 
-.btn-primary:hover {
+.btn-search:hover {
     background-color: rgb(248, 249, 250);
     color: rgb(43, 44, 47);
     border-color: rgb(218, 220, 224);
 }
+
+.btn-search:active {
+    background-color: rgb(248, 249, 250) !important;
+    box-shadow: none;
+}
+
+.btn-search:focus {
+    background-color: rgb(248, 249, 250) !important;
+    box-shadow: none;
+    border-color: rgb(218, 220, 224);
+
+}
+
+.how-to {
+    font-size: small;
+}
+
+div.col-3 {
+    text-align: left;
+}
+
+
+.btn-primary {
+    background-color: rgb(74, 130, 250);
+    border-color: rgb(52, 109, 241);
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(rgb(74, 130, 250), rgb(56, 112, 236));
+    border-color: rgb(52, 81, 186);
+}
+
