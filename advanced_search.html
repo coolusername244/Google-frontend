@@ -1,91 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Advanced Search</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/d1622cf4cc.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><span class="blue">G</span><span class="red">o</span><span class="orange">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></a>
-            </div>
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Back to Google Search</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advanced Search</title>
+    <link rel="shortcut icon" href="google-favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1622cf4cc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><span class="blue">G</span><span class="red">o</span
+          ><span class="orange">o</span><span class="blue">g</span
+          ><span class="green">l</span><span class="red">e</span></a
+        >
+      </div>
+      <div class="container-fluid">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Back to Google Search</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-3">
+        <h5 class="red mt-3 mb-3">Advanced Search</h5>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <form action="https://google.com/search">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-3">
-                <h5 class="red mt-3 mb-3">Advanced Search</h5>
-            </div>
+          <div class="col-3">Find pages with...</div>
+          <div class="col-5"></div>
+          <div class="col-3">To do this in the search box.</div>
         </div>
-        <hr>
-        <div class="container">
-            <form action="https://google.com/search">
-                <div class="row">
-                    <div class="col-3">
-                        Find pages with...
-                    </div>
-                    <div class="col-5"></div>
-                    <div class="col-3">
-                        To do this in the search box.
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-3">
-                        all these words:
-                    </div>
-                    <div class="col-5">
-                        <input class="form-control" type="text" name="as_q">
-                    </div>
-                    <div class="col-3">
-                        <p class="how-to">Type the important words: <span class="font-monospace"> tri-colour rat terrier</span></p>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-3">
-                        this exact word or phrase:
-                    </div>
-                    <div class="col-5">
-                        <input class="form-control" type="text" name="as_epq">
-                    </div>
-                    <div class="col-3">
-                        <p class="how-to">Put exact words in quotes: <span class="font-monospace">"rat terrier"</span></p>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-3">
-                        any of these words:
-                    </div>
-                    <div class="col-5">
-                        <input class="form-control" type="text" name="as_oq">
-                    </div>
-                    <div class="col-3">
-                        <p class="how-to">Type <span class="fw-bold">OR</span> between all the words you want: <span class="font-monospace">miniature OR standard</span></p>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-3">
-                        none of these words:
-                    </div>
-                    <div class="col-5">
-                        <input class="form-control" type="text" name="as_eq">
-                    </div>
-                    <div class="col-3">
-                        <p class="how-to">Put a minus sign just before words that you don't want: <span class="font-monospace">-rodent, -"Jack Russell"</span></p>
-                    </div>
-                </div>
-                <input class="btn btn-primary" type="submit" value="Advanced Search">
-            </form>
+        <div class="row mt-4">
+          <div class="col-3">all these words:</div>
+          <div class="col-5">
+            <input class="form-control" type="text" name="as_q" />
+          </div>
+          <div class="col-3">
+            <p class="how-to">
+              Type the important words:
+              <span class="font-monospace"> tri-colour rat terrier</span>
+            </p>
+          </div>
         </div>
-    </body>
+        <div class="row mt-2">
+          <div class="col-3">this exact word or phrase:</div>
+          <div class="col-5">
+            <input class="form-control" type="text" name="as_epq" />
+          </div>
+          <div class="col-3">
+            <p class="how-to">
+              Put exact words in quotes:
+              <span class="font-monospace">"rat terrier"</span>
+            </p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-3">any of these words:</div>
+          <div class="col-5">
+            <input class="form-control" type="text" name="as_oq" />
+          </div>
+          <div class="col-3">
+            <p class="how-to">
+              Type <span class="fw-bold">OR</span> between all the words you
+              want: <span class="font-monospace">miniature OR standard</span>
+            </p>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-3">none of these words:</div>
+          <div class="col-5">
+            <input class="form-control" type="text" name="as_eq" />
+          </div>
+          <div class="col-3">
+            <p class="how-to">
+              Put a minus sign just before words that you don't want:
+              <span class="font-monospace">-rodent, -"Jack Russell"</span>
+            </p>
+          </div>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Advanced Search" />
+      </form>
+    </div>
+  </body>
 </html>
